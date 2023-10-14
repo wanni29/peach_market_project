@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:project_peach_market_app/chating/chating_screen.dart';
-import 'package:project_peach_market_app/communication/communication_screen.dart';
-import 'package:project_peach_market_app/main/main_screen.dart';
-import 'package:project_peach_market_app/mypeach/my_peach_screen.dart';
+import 'package:project_peach_market_app/screens/chating/chating_screen.dart';
+import 'package:project_peach_market_app/screens/communication/communication_screen.dart';
+import 'package:project_peach_market_app/screens/main/main_screen.dart';
+import 'package:project_peach_market_app/screens/mypeach/my_peach_screen.dart';
 
-import 'model/nav_item.dart';
+import '../model/nav_item.dart';
 
 class NaviScreens extends StatefulWidget {
   static String routeName = "/navi_screens";

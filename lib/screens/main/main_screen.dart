@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:project_peach_market_app/chating/chating_screen.dart';
-import 'package:project_peach_market_app/communication/communication_screen.dart';
-import 'package:project_peach_market_app/main/components/appbar/my_action_icon.dart';
-import 'package:project_peach_market_app/main/components/appbar/my_leading.dart';
-import 'package:project_peach_market_app/main/components/product/my_product_image.dart';
-import 'package:project_peach_market_app/main/components/product/my_product_name_and_price.dart';
-import 'package:project_peach_market_app/main/components/product/my_stack_reply_and_like.dart';
-import 'package:project_peach_market_app/model/nav_item.dart';
-import 'package:project_peach_market_app/mypeach/my_peach_screen.dart';
+import 'package:project_peach_market_app/screens/main/components/appbar/my_action_icon.dart';
+import 'package:project_peach_market_app/screens/main/components/appbar/my_leading.dart';
+import 'package:project_peach_market_app/screens/main/components/product/my_product_image.dart';
+import 'package:project_peach_market_app/screens/main/components/product/my_product_name_and_price.dart';
+import 'package:project_peach_market_app/screens/main/components/product/my_stack_reply_and_like.dart';
 
 class MainScreen extends StatefulWidget {
   static String routeName = "/main";

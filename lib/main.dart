@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_peach_market_app/my_theme.dart';
-import 'package:project_peach_market_app/navi_screens.dart';
+import 'package:project_peach_market_app/screens/navi_screens.dart';
 import 'package:project_peach_market_app/route.dart';
 
 void main() {
