@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:project_peach_market_app/constants.dart';
 import 'package:project_peach_market_app/main/components/my_action_icon.dart';
 import 'package:project_peach_market_app/main/components/my_leading.dart';
+import 'package:project_peach_market_app/my_bottom_navigationbar.dart';
 import 'package:project_peach_market_app/my_theme.dart';
 
 class MainScreen extends StatelessWidget {
@@ -120,35 +121,7 @@ class MainScreen extends StatelessWidget {
         },
         body: Container(),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        showSelectedLabels: true, // 아이콘 밑에 레이블을 표시할래?
-        showUnselectedLabels: true,
-        selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.white38,
-
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(FontAwesomeIcons.home),
-            label: "홈", // icon 과 label 값은 시그니처기때문에 무조건 넣어야 에러가 안뜬다.
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(FontAwesomeIcons.newspaper),
-            label: "",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(FontAwesomeIcons.appleAlt),
-            label: "",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(FontAwesomeIcons.facebookMessenger),
-            label: "",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: "",
-          )
-        ],
-      ),
+      bottomNavigationBar: MyBottomNavigationBar(),
     );
   }
 }
