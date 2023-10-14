@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CommunicationScreen extends StatelessWidget {
+  static String routeName = "/communication";
   const CommunicationScreen({super.key});
 
   @override
